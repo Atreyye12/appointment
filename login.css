@@ -1,0 +1,45 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+
+.next
+{
+	width: 300px;margin-top: 30px;border-radius: 30px; background-color: coral; font-size: large;
+}
+.down
+{
+	width: 80px;margin-top: 30px;border-radius: 0px;
+}
+.form {
+    width: 50%;
+    text-align: center;
+}
+.span {
+    margin-left: 550px;
+}
+#username {
+    width: 500px;margin-left: 600px;border-radius: 0px; 
+}
+#date{
+    width: 500px;margin-left: 600px;border-radius: 0px; 
+}
+#address {
+    width: 500px;margin-left: 600px;border-radius: 0px;      
+}
+#number {
+    width: 500px;margin-left: 600px;border-radius: 0px;      
+}
+#state {
+    width: 500px;margin-left: 600px;border-radius: 0px;      
+}
+#city {
+    width: 500px;margin-left: 600px;border-radius: 0px;      
+}
+#btn {
+    width: 80pxpx;margin-left: 30px;border-radius: 0px; 
+}

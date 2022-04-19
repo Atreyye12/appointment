@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appointment</title>
+<link  href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css"  href="login.css">
+<script src="login.js"></script>
+</head>
+<body class="body-background">
+	<h1> Please give your required details below. ⬇️</h1>
+	<br>
+	<br>
+	<div>
+		<form class="form" id="form">
+			
+		<label for="username" id="user_name" class="user">Username:</label>
+		<span>
+		<input type="text" id="username" name="username" required>
+		</span>
+		<label for="birth date" class="birth">Birth Date:</label>
+		<span>
+		<input type="text" id="date" name="date" required>
+	</span>
+		<label for="address" class="address">Address:</label>
+		<span>
+		<input type="text" id="address" name="address" required>
+	</span>
+		<label for="number" class="number">Phone Number:</label>
+		<span>
+		<input type="text" id="number" name="number" required>
+</form>
+		<br>
+		<br>
+		<button id="btn">Submit</button>
+	  
+	</div>
+	
+	
+
+	<h1> To proceed pls press on the below button. </h1>
+    <div>
+        <img src="down arrow.gif" class="down">
+<br>
+        <button class="next" onclick="next()">Next</button>
+    </div>
+	
+	</body>
